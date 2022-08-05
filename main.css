@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    height: 200px;
+    background-color:#333;
+}
+.icon-dinhvi{
+    font-size: 15px;
+    margin: 10px 0px 10px 70px;
+    float: left;
+}
+.icon-phone{
+    font-size: 15px;
+    margin: 10px 10px;
+    float: left;
+}
+.icon{
+    font-size: 15px;
+    margin: 10px 70px;
+    float: right;
+}
+.fb {
+    margin-right: -50px;
+}
+hr{
+    width: 100%;
+    margin-top: 50px;
+    opacity: 0.5;
+}
+.logo{
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 10px 0px 10px 60px;
+    float: left;
+}
+.nam{
+    display: flex;
+}
+.nam form input[type=email] {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px 0px 0px 4px;
+    font-size: 13px;
+    padding: 10px 10px;
+    width: 370px;
+}
+.email{
+    text-align: center;
+}
+.email input{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.icon2{
+    margin-top: 30px;
+}
+.timkiem{
+    width: 50px;
+    height: 37px;
+    background-color:#c89979 ;
+    border-radius: 0px 4px 4px 0px;
+}
+.timkiem i{
+    padding: 10px 10px 10px 15px;
+}
+.cuahang, .tim{
+    position: relative;
+    left: 120px;
+}
+.tim{
+    margin-left: 20px;
+}
+hr{
+    margin-top: 10px;
+}
+.nav{
+    text-align: center;
+    padding: 5px 0px 5px;
+    width: 100%;
+}
+.btn-list li a{
+    display:inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+    height: 2.75rem;
+    line-height: 2.75rem;
+    min-width: 100px;
+    text-align: center;
+    transition: 0.3s all;
+    margin-top: 0px;
+}
+.btn-list li a:hover {
+    opacity: 0.8;
+    color: #c89979 ;    
+}
+ul li a{
+    text-align: center;
+    color: #fff;
+}
+ul li{
+    margin: 0px 10px;
+    list-style: none;
+    padding-left: 0;
+    border-radius: 4px;
+    display: inline;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    background-color: #222;
+    display: flex;
+}
+.gioithieu{
+    text-align: left;
+    width: 40%;
+    padding: 100px 90px;
+    font-size: 25px;
+}
+.gioithieu p {
+    font-size: 15px;
+    line-height: 25px;
+}
+h3 ,h2 {
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 50px;
+}
+.gioithieu form button {
+    margin-top: 15px;
+    padding: 10px 40px;
+    background: #222;
+    color: #fff;
+    font-weight: bold;
+    border: 1px #fff solid;
+    border-radius: 4px;
+    transition: 0.3s all;
+}
+.gioithieu form button:hover {
+    color: #c89979;
+    cursor: pointer;
+}
